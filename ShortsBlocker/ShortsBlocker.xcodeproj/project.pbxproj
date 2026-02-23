@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A7EED7F2F4CD12300384312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EED7E2F4CD12300384312 /* AppDelegate.swift */; };
+		6A7EED832F4CD12300384312 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EED812F4CD12300384312 /* Main.html */; };
+		6A7EED852F4CD12300384312 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EED842F4CD12300384312 /* Icon.png */; };
+		6A7EED872F4CD12300384312 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EED862F4CD12300384312 /* Style.css */; };
+		6A7EED892F4CD12300384312 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EED882F4CD12300384312 /* Script.js */; };
+		6A7EED8B2F4CD12300384312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EED8A2F4CD12300384312 /* ViewController.swift */; };
+		6A7EED8E2F4CD12300384312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EED8C2F4CD12300384312 /* Main.storyboard */; };
+		6A7EED902F4CD12300384312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EED8F2F4CD12300384312 /* Assets.xcassets */; };
+		6A7EED9D2F4CD12300384312 /* ShortsBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EED9C2F4CD12300384312 /* ShortsBlockerTests.swift */; };
+		6A7EEDA72F4CD12300384312 /* ShortsBlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EEDA62F4CD12300384312 /* ShortsBlockerUITests.swift */; };
+		6A7EEDA92F4CD12300384312 /* ShortsBlockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EEDA82F4CD12300384312 /* ShortsBlockerUITestsLaunchTests.swift */; };
+		6A7EEDAF2F4CD12300384312 /* ShortsBlocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6A7EEDAE2F4CD12300384312 /* ShortsBlocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A7EEDB42F4CD12300384312 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EEDB32F4CD12300384312 /* SafariWebExtensionHandler.swift */; };
+		6A7EEDCD2F4CD12300384312 /* popup in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EEDC72F4CD12300384312 /* popup */; };
+		6A7EEDCE2F4CD12300384312 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EEDC82F4CD12300384312 /* content.css */; };
+		6A7EEDCF2F4CD12300384312 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EEDC92F4CD12300384312 /* background.js */; };
+		6A7EEDD02F4CD12300384312 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EEDCA2F4CD12300384312 /* icons */; };
+		6A7EEDD12F4CD12300384312 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EEDCB2F4CD12300384312 /* manifest.json */; };
+		6A7EEDD22F4CD12300384312 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EEDCC2F4CD12300384312 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A7EED992F4CD12300384312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A7EED732F4CD12300384312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7EED7A2F4CD12300384312;
+			remoteInfo = ShortsBlocker;
+		};
+		6A7EEDA32F4CD12300384312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A7EED732F4CD12300384312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7EED7A2F4CD12300384312;
+			remoteInfo = ShortsBlocker;
+		};
+		6A7EEDB02F4CD12300384312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A7EED732F4CD12300384312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7EEDAD2F4CD12300384312;
+			remoteInfo = "ShortsBlocker Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A7EEDBC2F4CD12300384312 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6A7EEDAF2F4CD12300384312 /* ShortsBlocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6A7EED7B2F4CD12300384312 /* ShortsBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortsBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7EED7E2F4CD12300384312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A7EED822F4CD12300384312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		6A7EED842F4CD12300384312 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6A7EED862F4CD12300384312 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6A7EED882F4CD12300384312 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6A7EED8A2F4CD12300384312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A7EED8D2F4CD12300384312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A7EED8F2F4CD12300384312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A7EED912F4CD12300384312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7EED922F4CD12300384312 /* ShortsBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShortsBlocker.entitlements; sourceTree = "<group>"; };
+		6A7EED932F4CD12300384312 /* ShortsBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShortsBlocker.entitlements; sourceTree = "<group>"; };
+		6A7EED982F4CD12300384312 /* ShortsBlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortsBlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7EED9C2F4CD12300384312 /* ShortsBlockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsBlockerTests.swift; sourceTree = "<group>"; };
+		6A7EEDA22F4CD12300384312 /* ShortsBlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortsBlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7EEDA62F4CD12300384312 /* ShortsBlockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsBlockerUITests.swift; sourceTree = "<group>"; };
+		6A7EEDA82F4CD12300384312 /* ShortsBlockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsBlockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A7EEDAE2F4CD12300384312 /* ShortsBlocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ShortsBlocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7EEDB32F4CD12300384312 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6A7EEDB52F4CD12300384312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7EEDB62F4CD12300384312 /* ShortsBlocker_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShortsBlocker_Extension.entitlements; sourceTree = "<group>"; };
+		6A7EEDC72F4CD12300384312 /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popup; path = ../../extension/popup; sourceTree = "<group>"; };
+		6A7EEDC82F4CD12300384312 /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = content.css; path = ../../extension/content.css; sourceTree = "<group>"; };
+		6A7EEDC92F4CD12300384312 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../extension/background.js; sourceTree = "<group>"; };
+		6A7EEDCA2F4CD12300384312 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../extension/icons; sourceTree = "<group>"; };
+		6A7EEDCB2F4CD12300384312 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
+		6A7EEDCC2F4CD12300384312 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A7EED782F4CD12300384312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EED952F4CD12300384312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EED9F2F4CD12300384312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EEDAB2F4CD12300384312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7EED722F4CD12300384312 = {
+			isa = PBXGroup;
+			children = (
+				6A7EED7D2F4CD12300384312 /* ShortsBlocker */,
+				6A7EED9B2F4CD12300384312 /* ShortsBlockerTests */,
+				6A7EEDA52F4CD12300384312 /* ShortsBlockerUITests */,
+				6A7EEDB22F4CD12300384312 /* ShortsBlocker Extension */,
+				6A7EED7C2F4CD12300384312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A7EED7C2F4CD12300384312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EED7B2F4CD12300384312 /* ShortsBlocker.app */,
+				6A7EED982F4CD12300384312 /* ShortsBlockerTests.xctest */,
+				6A7EEDA22F4CD12300384312 /* ShortsBlockerUITests.xctest */,
+				6A7EEDAE2F4CD12300384312 /* ShortsBlocker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A7EED7D2F4CD12300384312 /* ShortsBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EED7E2F4CD12300384312 /* AppDelegate.swift */,
+				6A7EED8A2F4CD12300384312 /* ViewController.swift */,
+				6A7EED8C2F4CD12300384312 /* Main.storyboard */,
+				6A7EED8F2F4CD12300384312 /* Assets.xcassets */,
+				6A7EED912F4CD12300384312 /* Info.plist */,
+				6A7EED922F4CD12300384312 /* ShortsBlocker.entitlements */,
+				6A7EED932F4CD12300384312 /* ShortsBlocker.entitlements */,
+				6A7EED802F4CD12300384312 /* Resources */,
+			);
+			path = ShortsBlocker;
+			sourceTree = "<group>";
+		};
+		6A7EED802F4CD12300384312 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EED812F4CD12300384312 /* Main.html */,
+				6A7EED842F4CD12300384312 /* Icon.png */,
+				6A7EED862F4CD12300384312 /* Style.css */,
+				6A7EED882F4CD12300384312 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A7EED9B2F4CD12300384312 /* ShortsBlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EED9C2F4CD12300384312 /* ShortsBlockerTests.swift */,
+			);
+			path = ShortsBlockerTests;
+			sourceTree = "<group>";
+		};
+		6A7EEDA52F4CD12300384312 /* ShortsBlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EEDA62F4CD12300384312 /* ShortsBlockerUITests.swift */,
+				6A7EEDA82F4CD12300384312 /* ShortsBlockerUITestsLaunchTests.swift */,
+			);
+			path = ShortsBlockerUITests;
+			sourceTree = "<group>";
+		};
+		6A7EEDB22F4CD12300384312 /* ShortsBlocker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EEDC62F4CD12300384312 /* Resources */,
+				6A7EEDB32F4CD12300384312 /* SafariWebExtensionHandler.swift */,
+				6A7EEDB52F4CD12300384312 /* Info.plist */,
+				6A7EEDB62F4CD12300384312 /* ShortsBlocker_Extension.entitlements */,
+			);
+			path = "ShortsBlocker Extension";
+			sourceTree = "<group>";
+		};
+		6A7EEDC62F4CD12300384312 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EEDC72F4CD12300384312 /* popup */,
+				6A7EEDC82F4CD12300384312 /* content.css */,
+				6A7EEDC92F4CD12300384312 /* background.js */,
+				6A7EEDCA2F4CD12300384312 /* icons */,
+				6A7EEDCB2F4CD12300384312 /* manifest.json */,
+				6A7EEDCC2F4CD12300384312 /* content.js */,
+			);
+			name = Resources;
+			path = "ShortsBlocker Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A7EED7A2F4CD12300384312 /* ShortsBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7EEDBD2F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlocker" */;
+			buildPhases = (
+				6A7EED772F4CD12300384312 /* Sources */,
+				6A7EED782F4CD12300384312 /* Frameworks */,
+				6A7EED792F4CD12300384312 /* Resources */,
+				6A7EEDBC2F4CD12300384312 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7EEDB12F4CD12300384312 /* PBXTargetDependency */,
+			);
+			name = ShortsBlocker;
+			packageProductDependencies = (
+			);
+			productName = ShortsBlocker;
+			productReference = 6A7EED7B2F4CD12300384312 /* ShortsBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A7EED972F4CD12300384312 /* ShortsBlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7EEDC02F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlockerTests" */;
+			buildPhases = (
+				6A7EED942F4CD12300384312 /* Sources */,
+				6A7EED952F4CD12300384312 /* Frameworks */,
+				6A7EED962F4CD12300384312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7EED9A2F4CD12300384312 /* PBXTargetDependency */,
+			);
+			name = ShortsBlockerTests;
+			packageProductDependencies = (
+			);
+			productName = ShortsBlockerTests;
+			productReference = 6A7EED982F4CD12300384312 /* ShortsBlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A7EEDA12F4CD12300384312 /* ShortsBlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7EEDC32F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlockerUITests" */;
+			buildPhases = (
+				6A7EED9E2F4CD12300384312 /* Sources */,
+				6A7EED9F2F4CD12300384312 /* Frameworks */,
+				6A7EEDA02F4CD12300384312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7EEDA42F4CD12300384312 /* PBXTargetDependency */,
+			);
+			name = ShortsBlockerUITests;
+			packageProductDependencies = (
+			);
+			productName = ShortsBlockerUITests;
+			productReference = 6A7EEDA22F4CD12300384312 /* ShortsBlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6A7EEDAD2F4CD12300384312 /* ShortsBlocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7EEDB92F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlocker Extension" */;
+			buildPhases = (
+				6A7EEDAA2F4CD12300384312 /* Sources */,
+				6A7EEDAB2F4CD12300384312 /* Frameworks */,
+				6A7EEDAC2F4CD12300384312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShortsBlocker Extension";
+			packageProductDependencies = (
+			);
+			productName = "ShortsBlocker Extension";
+			productReference = 6A7EEDAE2F4CD12300384312 /* ShortsBlocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A7EED732F4CD12300384312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					6A7EED7A2F4CD12300384312 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					6A7EED972F4CD12300384312 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6A7EED7A2F4CD12300384312;
+					};
+					6A7EEDA12F4CD12300384312 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6A7EED7A2F4CD12300384312;
+					};
+					6A7EEDAD2F4CD12300384312 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 6A7EED762F4CD12300384312 /* Build configuration list for PBXProject "ShortsBlocker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A7EED722F4CD12300384312;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A7EED7C2F4CD12300384312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A7EED7A2F4CD12300384312 /* ShortsBlocker */,
+				6A7EED972F4CD12300384312 /* ShortsBlockerTests */,
+				6A7EEDA12F4CD12300384312 /* ShortsBlockerUITests */,
+				6A7EEDAD2F4CD12300384312 /* ShortsBlocker Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A7EED792F4CD12300384312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7EED852F4CD12300384312 /* Icon.png in Resources */,
+				6A7EED8E2F4CD12300384312 /* Main.storyboard in Resources */,
+				6A7EED892F4CD12300384312 /* Script.js in Resources */,
+				6A7EED832F4CD12300384312 /* Main.html in Resources */,
+				6A7EED902F4CD12300384312 /* Assets.xcassets in Resources */,
+				6A7EED872F4CD12300384312 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EED962F4CD12300384312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EEDA02F4CD12300384312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EEDAC2F4CD12300384312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7EEDD22F4CD12300384312 /* content.js in Resources */,
+				6A7EEDCD2F4CD12300384312 /* popup in Resources */,
+				6A7EEDD02F4CD12300384312 /* icons in Resources */,
+				6A7EEDD12F4CD12300384312 /* manifest.json in Resources */,
+				6A7EEDCF2F4CD12300384312 /* background.js in Resources */,
+				6A7EEDCE2F4CD12300384312 /* content.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A7EED772F4CD12300384312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7EED8B2F4CD12300384312 /* ViewController.swift in Sources */,
+				6A7EED7F2F4CD12300384312 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EED942F4CD12300384312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7EED9D2F4CD12300384312 /* ShortsBlockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EED9E2F4CD12300384312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7EEDA92F4CD12300384312 /* ShortsBlockerUITestsLaunchTests.swift in Sources */,
+				6A7EEDA72F4CD12300384312 /* ShortsBlockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7EEDAA2F4CD12300384312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7EEDB42F4CD12300384312 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A7EED9A2F4CD12300384312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7EED7A2F4CD12300384312 /* ShortsBlocker */;
+			targetProxy = 6A7EED992F4CD12300384312 /* PBXContainerItemProxy */;
+		};
+		6A7EEDA42F4CD12300384312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7EED7A2F4CD12300384312 /* ShortsBlocker */;
+			targetProxy = 6A7EEDA32F4CD12300384312 /* PBXContainerItemProxy */;
+		};
+		6A7EEDB12F4CD12300384312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7EEDAD2F4CD12300384312 /* ShortsBlocker Extension */;
+			targetProxy = 6A7EEDB02F4CD12300384312 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A7EED812F4CD12300384312 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7EED822F4CD12300384312 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6A7EED8C2F4CD12300384312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7EED8D2F4CD12300384312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A7EEDB72F4CD12300384312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A7EEDB82F4CD12300384312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6A7EEDBA2F4CD12300384312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ShortsBlocker Extension/ShortsBlocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShortsBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShortsBlocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlocker.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A7EEDBB2F4CD12300384312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ShortsBlocker Extension/ShortsBlocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShortsBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShortsBlocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlocker.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6A7EEDBE2F4CD12300384312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShortsBlocker/ShortsBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShortsBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShortsBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A7EEDBF2F4CD12300384312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShortsBlocker/ShortsBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShortsBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShortsBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6A7EEDC12F4CD12300384312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortsBlocker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShortsBlocker";
+			};
+			name = Debug;
+		};
+		6A7EEDC22F4CD12300384312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortsBlocker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShortsBlocker";
+			};
+			name = Release;
+		};
+		6A7EEDC42F4CD12300384312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShortsBlocker;
+			};
+			name = Debug;
+		};
+		6A7EEDC52F4CD12300384312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShortsBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShortsBlocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A7EED762F4CD12300384312 /* Build configuration list for PBXProject "ShortsBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7EEDB72F4CD12300384312 /* Debug */,
+				6A7EEDB82F4CD12300384312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7EEDB92F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7EEDBA2F4CD12300384312 /* Debug */,
+				6A7EEDBB2F4CD12300384312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7EEDBD2F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7EEDBE2F4CD12300384312 /* Debug */,
+				6A7EEDBF2F4CD12300384312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7EEDC02F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7EEDC12F4CD12300384312 /* Debug */,
+				6A7EEDC22F4CD12300384312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7EEDC32F4CD12300384312 /* Build configuration list for PBXNativeTarget "ShortsBlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7EEDC42F4CD12300384312 /* Debug */,
+				6A7EEDC52F4CD12300384312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A7EED732F4CD12300384312 /* Project object */;
+}

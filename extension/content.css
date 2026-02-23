@@ -1,0 +1,50 @@
+/* ShortsBlocker — all rules gated behind body.shorts-blocker-enabled */
+
+/* Shorts shelf on home page */
+body.shorts-blocker-enabled ytd-rich-shelf-renderer[is-shorts] {
+  display: none !important;
+}
+
+/* Reel shelf variants */
+body.shorts-blocker-enabled ytd-reel-shelf-renderer {
+  display: none !important;
+}
+
+/* Individual Shorts cards in feed */
+body.shorts-blocker-enabled ytd-rich-item-renderer:has(a[href*="/shorts/"]) {
+  display: none !important;
+}
+
+/* Shorts in search results */
+body.shorts-blocker-enabled ytd-video-renderer:has(a[href*="/shorts/"]) {
+  display: none !important;
+}
+
+/* Shorts in video suggestions sidebar */
+body.shorts-blocker-enabled ytd-compact-video-renderer:has(a[href*="/shorts/"]) {
+  display: none !important;
+}
+
+/* Sidebar "Shorts" link */
+body.shorts-blocker-enabled ytd-guide-entry-renderer:has(a[title="Shorts"]) {
+  display: none !important;
+}
+
+/* Mini sidebar "Shorts" link */
+body.shorts-blocker-enabled ytd-mini-guide-entry-renderer:has(a[title="Shorts"]) {
+  display: none !important;
+}
+
+/* Channel page "Shorts" tab */
+body.shorts-blocker-enabled yt-tab-shape[tab-title="Shorts"] {
+  display: none !important;
+}
+
+/* Shorts player page elements */
+body.shorts-blocker-enabled ytd-shorts {
+  display: none !important;
+}
+
+body.shorts-blocker-enabled [page-subtype="shorts"] {
+  display: none !important;
+}
